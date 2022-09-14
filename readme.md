@@ -9,7 +9,7 @@ Flashcard App
 
 ### App Walk-through
 
-<img src='https://recordit.co/zbMnL8W9Lc' title='screenrecording' width='' alt=''  />
+<img src='http://g.recordit.co/zbMnL8W9Lc.gif' title='screenrecording' width='' alt=''  />
 
 
 ## Required
