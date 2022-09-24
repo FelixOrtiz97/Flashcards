@@ -8,13 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var frontLabel: UILabel!
     @IBOutlet weak var backLabel: UILabel!
+    @IBOutlet weak var frontLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
     @IBAction func didTapFlashCard(_ sender: Any) {
         if frontLabel.tag == 0
         {
@@ -26,9 +26,6 @@ class ViewController: UIViewController {
             frontLabel.tag = 0
             frontLabel.isHidden = false
         }
+        
     }
-    
-
-    }
-
-
+}
