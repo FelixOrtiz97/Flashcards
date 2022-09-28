@@ -28,4 +28,7 @@ class ViewController: UIViewController {
         }
         
     }
+    func updateFlashcard(question: String, answer: String) {
+        dismiss(animated: true)
+    }
 }
