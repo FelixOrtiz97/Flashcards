@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3721418F28E3E2B80077E0CC /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3721418E28E3E2B80077E0CC /* CreationViewController.swift */; };
 		372D302328D162FE00949E29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D302228D162FE00949E29 /* AppDelegate.swift */; };
 		372D302528D162FE00949E29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D302428D162FE00949E29 /* SceneDelegate.swift */; };
 		372D302728D162FE00949E29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D302628D162FE00949E29 /* ViewController.swift */; };
@@ -17,6 +16,7 @@
 		372D303A28D1630000949E29 /* FlashcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D303928D1630000949E29 /* FlashcardsTests.swift */; };
 		372D304428D1630000949E29 /* FlashcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D304328D1630000949E29 /* FlashcardsUITests.swift */; };
 		372D304628D1630000949E29 /* FlashcardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372D304528D1630000949E29 /* FlashcardsUITestsLaunchTests.swift */; };
+		37DB0EA928ED095C004D9FF5 /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DB0EA828ED095C004D9FF5 /* CreationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3721418E28E3E2B80077E0CC /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
 		372D301F28D162FE00949E29 /* Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		372D302228D162FE00949E29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		372D302428D162FE00949E29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		372D303F28D1630000949E29 /* FlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		372D304328D1630000949E29 /* FlashcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITests.swift; sourceTree = "<group>"; };
 		372D304528D1630000949E29 /* FlashcardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37DB0EA828ED095C004D9FF5 /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,6 @@
 		372D301628D162FD00949E29 = {
 			isa = PBXGroup;
 			children = (
-				3721418E28E3E2B80077E0CC /* CreationViewController.swift */,
 				372D302128D162FE00949E29 /* Flashcards */,
 				372D303828D1630000949E29 /* FlashcardsTests */,
 				372D304228D1630000949E29 /* FlashcardsUITests */,
@@ -106,6 +105,7 @@
 				372D302428D162FE00949E29 /* SceneDelegate.swift */,
 				372D302628D162FE00949E29 /* ViewController.swift */,
 				372D302828D162FE00949E29 /* Main.storyboard */,
+				37DB0EA828ED095C004D9FF5 /* CreationViewController.swift */,
 				372D302B28D1630000949E29 /* Assets.xcassets */,
 				372D302D28D1630000949E29 /* LaunchScreen.storyboard */,
 				372D303028D1630000949E29 /* Info.plist */,
@@ -264,7 +264,7 @@
 				372D302728D162FE00949E29 /* ViewController.swift in Sources */,
 				372D302328D162FE00949E29 /* AppDelegate.swift in Sources */,
 				372D302528D162FE00949E29 /* SceneDelegate.swift in Sources */,
-				3721418F28E3E2B80077E0CC /* CreationViewController.swift in Sources */,
+				37DB0EA928ED095C004D9FF5 /* CreationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
